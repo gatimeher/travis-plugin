@@ -1,1 +1,8 @@
 language: java
+notifications:
+  email:
+    recipients:
+      - gati.meher@globallogic.com
+      - b.balki@globallogic.com
+    on_success: always # default: change
+    on_failure: always # default: always
